@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    tools:context=".LogInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Moja Vozila"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"/>
+
+        <EditText
+            android:id="@+id/ime_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/edit"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Ime"
+            android:padding="17dp"
+            android:textAlignment="center"
+            android:maxLines="1"
+            android:maxLength="20"/>
+
+        <EditText
+            android:id="@+id/prezime_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Prezime"
+            android:padding="17dp"
+            android:textAlignment="center"
+            android:maxLines="1"
+            android:maxLength="20"/>
+
+        <Button
+            android:id="@+id/buttonKreni"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/button"
+            android:text="Kreni!"
+            android:textColor="#ededed"
+            android:textSize="17dp" />
+    </LinearLayout>
+</LinearLayout>

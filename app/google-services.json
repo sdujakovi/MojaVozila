@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "485247218366",
+    "firebase_url": "https://fir-mv-1957f.firebaseio.com",
+    "project_id": "fir-mv-1957f",
+    "storage_bucket": "fir-mv-1957f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485247218366:android:7335e0573602309772e4ef",
+        "android_client_info": {
+          "package_name": "com.example.mojavozila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485247218366-856bshgdjhnqamrupmlqbn6aa6ps19ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMkt2pj8Rc9jUBvrAs-yjAw99WSL3XiHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485247218366-856bshgdjhnqamrupmlqbn6aa6ps19ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
